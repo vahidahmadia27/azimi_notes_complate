@@ -1,2 +1,3 @@
 RewriteEngine On
 
+RewriteRule ^panel$ pages/panel.php [L]

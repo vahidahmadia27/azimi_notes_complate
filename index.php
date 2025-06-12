@@ -1,12 +1,12 @@
 <?php
-
+require_once  "loader.php";
 session_start();
 if (isset($_SESSION["user"])) {
     $user = $_SESSION['user'];
 } else {
     $user = null;
 }
-require_once "loader.php";
+
 ?>
 
 
@@ -14,7 +14,7 @@ require_once "loader.php";
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -24,14 +24,12 @@ require_once "loader.php";
     <link rel="stylesheet" href="assets/lib/css/bootstrap.rtl.css">
 </head>
 
-<body>
+<body class="position-relative">
     <?php include "includes/header.php"; ?>
 
 
-    <div class="container-fluid position-relative ">
+    <div class="container-fluid ">
         <div class="div-index">
-
-
             <?php
             $page = $_GET['page'] ?? 'home';
 
@@ -40,6 +38,8 @@ require_once "loader.php";
     </div>
 
     <?php include "includes/footer.php"; ?>
+    <script src="/azimi_notes_complate/assets/lib/js/bootstrap.bundle.js"></script>
 </body>
+
 
 </html>
