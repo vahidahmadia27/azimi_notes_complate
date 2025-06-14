@@ -226,7 +226,6 @@ $allnotes = mysqli_query($connection, "SELECT * FROM `notes` WHERE  `note_user` 
                 var created = button.getAttribute('data-created');
                 var bookmark = button.getAttribute('data-bookmark');
 
-                // مقداردهی به المان‌های مودال
                 document.getElementById('noteTitle').textContent = title;
                 document.getElementById('noteCaption').textContent = caption;
                 document.getElementById('noteCreated').textContent = created;

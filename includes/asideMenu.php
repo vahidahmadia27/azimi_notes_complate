@@ -43,7 +43,7 @@
                  </div>
 
                  <div class="mt-auto">
-                     <a class=" btn w-100 btn-danger" href="<?php echo $base_url ?>./controllers/logout.php">خروج</a>
+                     <a class=" btn w-100 btn-danger" href="<?php echo $base_url ?>./controllers/logout.php" onclick="return confirm('آیا مطمئن هستید؟');">خروج</a>
                  </div>
 
              </div>
