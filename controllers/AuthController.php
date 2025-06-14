@@ -18,6 +18,8 @@ if (isset($_POST["login_submit"])) {
             if ($row_sql[4] == $password) {
                 $_SESSION['success'] = "ورود موفیقت آمیز بود در حال روت به پنل";
                 $_SESSION["user"] = $username;
+                $_SESSION['userID'] = $row_sql[0];
+                $_SESSION['name'] = $row_sql[1];
                 header("Location: ../panel");
                 exit;
             } else {

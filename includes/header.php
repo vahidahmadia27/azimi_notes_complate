@@ -14,7 +14,7 @@
             <li class="nav-item">
                 <?php
                 echo isset($user)
-                    ? '<a class="nav-link" href="' . $base_url . 'pages/panel.php">پنل کاربری</a>'
+                    ? '<a class="nav-link" href="' . $base_url . 'panel">پنل کاربری</a>'
                     : '<a class="nav-link" href="?page=login">ورود و یا ثبت نام</a>';
                 ?> </li>
         </ul>

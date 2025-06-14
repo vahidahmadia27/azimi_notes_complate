@@ -1,3 +1,7 @@
+body {
+  overflow: auto !important;
+}
+
 .div-index {
   min-height: 100vh !important;
   background-image: url(../images/title.jpg);
@@ -197,6 +201,8 @@
   width: 250px !important;
 }
 .card-title {
+  min-height: 350px !important;
+  align-content: center;
   border: 1px solid black;
   background-color: white;
   border-radius: 12px;
@@ -247,4 +253,36 @@
   transform: translate(0px);
   background-color: greenyellow;
   color: black;
+}
+
+.img-notes {
+  object-fit: contain;
+  height: 35px;
+  width: 100%;
+}
+
+.bookmark-notes {
+  background-color: darkorange;
+  padding: 8px 16px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  color: black;
+}
+
+.no-bookmark-notes {
+  color: white;
+  background-color: aqua;
+  padding: 8px 16px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.modal-image-notes {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
