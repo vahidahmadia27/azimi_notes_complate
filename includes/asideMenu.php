@@ -33,13 +33,13 @@
                      <a type="button" class="btn-aside" data-bs-toggle="modal" data-bs-target="#addNotes" data-whatever="موضوع">اضافه کردن یادداشت جدید</a>
                  </div>
                  <div class="mt-2">
-                     <a class=" btn-aside" href="<?php echo $base_url ?>./controllers/logout.php">نزدیک ترین تاریخ ها </a>
+                     <a class=" btn-aside opacity-50" href="<?php echo $base_url ?>./controllers/logout.php">نزدیک ترین تاریخ ها </a>
                  </div>
                  <div class="mt-2">
-                     <a class=" btn-aside" href="<?php echo $base_url ?>./controllers/logout.php">تایمر برای یاددآوری</a>
+                     <a class=" btn-aside opacity-50" href="<?php echo $base_url ?>./controllers/logout.php">تایمر برای یاددآوری</a>
                  </div>
                  <div class="mt-2">
-                     <a class=" btn-aside" href="<?php echo $base_url ?>./controllers/logout.php"> شماره تلفن جدید</a>
+                     <a class=" btn-aside opacity-50 " href="<?php echo $base_url ?>./controllers/logout.php"> شماره تلفن جدید</a>
                  </div>
 
                  <div class="mt-auto">
