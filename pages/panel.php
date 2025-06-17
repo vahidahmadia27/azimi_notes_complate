@@ -90,8 +90,8 @@ if (mysqli_num_rows($allnotes) > 0) {
                                         <tbody>
                                             <tr class="align-content-center text-center">
                                                 <th scope="row "><?php echo $i++ ?></th>
-                                                <td class="align-content-center text-center"><?php echo $notes['note_title'] ?></td>
-                                                <td class="align-content-center text-center"><?php echo $notes['note_caption'] ?></td>
+                                                <td class="align-content-center text-center tex-limit"><?php echo $notes['note_title'] ?></td>
+                                                <td class="align-content-center text-center tex-limit"><?php echo $notes['note_caption'] ?></td>
                                                 <td class="align-content-center text-center"><?php echo $notes['note_created'] ?></td>
                                                 <td class="align-content-center text-center"><img class="img-notes" src="<?php echo $notes['note_image'] ?>" alt="noImageSet"></td>
                                                 <td class="align-content-center text-center"><?php echo $notes['notes_bookmark'] ?   '<a class="bookmark-notes">مارک شده مهم </a>' :  '<a class="no-bookmark-notes">عادی</a>' ?></td>
@@ -170,8 +170,8 @@ if (mysqli_num_rows($allnotes) > 0) {
                                             <tbody>
                                                 <tr class="align-content-center text-center">
                                                     <th scope="row "><?php echo $i++ ?></th>
-                                                    <td class="align-content-center text-center"><?php echo $notes['note_title'] ?></td>
-                                                    <td class="align-content-center text-center"><?php echo $notes['note_caption'] ?></td>
+                                                    <td class="align-content-center text-center tex-limit"><?php echo $notes['note_title'] ?></td>
+                                                    <td class="align-content-center text-center tex-limit"><?php echo $notes['note_caption'] ?></td>
                                                     <td class="align-content-center text-center"><?php echo $notes['note_created'] ?></td>
                                                     <td class="align-content-center text-center"><img class="img-notes" src="<?php echo $notes['note_image'] ?>" alt="noImageSet"></td>
                                                     <td class="align-content-center text-center"><?php echo $notes['notes_bookmark'] ?   '<a class="bookmark-notes">مارک شده مهم </a>' :  '<a class="no-bookmark-notes">عادی</a>' ?></td>
@@ -313,7 +313,7 @@ if (mysqli_num_rows($allnotes) > 0) {
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="بستن"></button>
                 </div>
                 <div class="modal-body">
-                    <p><strong>موضوع:</strong> <span id="noteTitle"></span></p>
+                    <p><strong>موضوع:</strong> <span class="" id="noteTitle"></span></p>
                     <p><strong>متن یادداشت:</strong> <span id="noteCaption"></span></p>
                     <img id="noteImage" class="modal-image-notes" src="" alt="تصویر یادداشت">
                     <p class="mt-2"><strong>تاریخ ایجاد:</strong> <span id="noteCreated"></span></p>

@@ -291,3 +291,11 @@ body {
   pointer-events: none;
   cursor: default;
 }
+
+.tex-limit {
+  font-family: "Courier New", monospace;
+  max-width: 10ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
