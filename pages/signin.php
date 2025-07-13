@@ -31,7 +31,7 @@ if (isset($_SESSION['user'])) {
                     <label for="floatingPassword">ایمیل</label>
                 </div>
                 <div class="form-floating mb-3  <?php echo (!empty($errors['phone']) ? "error_class " : '') ?>">
-                    <input type="text" class="form-control" name="phone" id="floatingPassword" placeholder="phone number">
+                    <input type="number" class="form-control" name="phone" id="floatingPassword" placeholder="phone number">
                     <label for="floatingPassword">شماره تلفن</label>
                 </div>
                 <div class="form-floating mb-3  <?php echo (!empty($errors['password']) ? "error_class " : '') ?>">
